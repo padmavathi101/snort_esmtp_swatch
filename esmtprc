@@ -1,0 +1,23 @@
+# Config file for ESMTP sendmail
+
+# The SMTP host and service (port)
+hostname=smtp.gmail.com:587
+
+# SECURITY WARNING: Do NOT set username and password in the system wide
+# configuration file unless you are the only user of this machine. See
+# esmtprc(5).
+
+# The user name
+username=dlpadmavathi.us@gmail.com
+
+# The password
+password=XXXXXX
+
+# Whether to use Starttls
+starttls=enabled
+
+# The certificate passphrase
+#certificate_passphrase=
+
+# The Mail Delivery Agent
+#mda=""

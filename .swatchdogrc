@@ -1,0 +1,3 @@
+watchfor /ICMP test/
+            echo bold
+	    exec "esmtp dest_username@gmail.com < msg.txt"

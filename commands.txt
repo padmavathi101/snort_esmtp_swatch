@@ -1,0 +1,5 @@
+snort -A console -c /etc/snort/snort.conf -i eth0 >msg1.txt
+
+swatchdog --debug -c /root/.swatchdogrc --tail-file=msg1.txt
+
+
